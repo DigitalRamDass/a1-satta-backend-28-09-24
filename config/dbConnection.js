@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const DB_LINK=process.env.DB_LINK;
 
-mongoose.set('debug', true); 
+mongoose.set('debug', true);  
 mongoose.connect(DB_LINK, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
